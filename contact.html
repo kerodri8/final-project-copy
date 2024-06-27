@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Mountain Top Resort</title>
+        <meta name="author" content="Kristin Judd">
+        <meta name="description" content="Welcome to beautiful Mountain Top Resort. Stay with us and enjoy a relaxing and secluded getaway among the peaks of the swiss alps.">  
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <section id="hero">
+            <div class="container">
+            <h1><a href="index.html">Mountain Top Resort</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            </div>
+            </section>
+        </header>
+        <main>
+            <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a *</p>
+            <img src="images/swiss-sunset.jpg" alt="lake at the base of the swiss alps" width="710" height="270">
+
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                <label for="my-name">Full Name*</label>
+                <input type="text" name="my-name" id="my-name" required>
+
+                <label for="my-email">Email Address*</label>
+                <input type="email" name="my-email" id="my-email" required>
+
+                <label for="my-phone">Phone Number*</label>
+                <input type="tel" name="my-phone" id="my-phone" required>
+
+                <fieldset>
+                    <legend>Preferred Contact Method</legend>
+                    <input type="radio" name="contact-pref" id="pref-email" checked>
+                    <label for="pref-email">Email</label>
+
+                    <input type="radio" name="contact-pref" id="pref-phone">
+                    <label for="pref-phone">Phone</label>
+                </fieldset>
+
+                <label for="my-comments">Comments*</label>
+                <textarea name="my-comments" id="my-comments" required></textarea>
+
+                <input type="submit" name="my-submit" id="my-submit">
+            </form>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &#169;2023 - Mountain Top Resort</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
